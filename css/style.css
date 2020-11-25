@@ -11,12 +11,12 @@ a {
     text-decoration:none;
 }
 .section-title {
-    font-size: 2.3rem;
+    font-size: 3.7vh;
     font-weight:300;
     color:black;
-    margin-bottom:10px;
+    margin-bottom:3vh;
     text-transform: uppercase;
-    letter-spacing:.2rem;
+    letter-spacing:.4vh;
     text-align:center;
 }
 .section-title span {
@@ -266,7 +266,7 @@ a {
     align-items:flex-start;
     justify-content:center;
     flex-direction:column;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     background-image: url(/assets/sashimi2.png);
     background-size: cover;
@@ -712,8 +712,7 @@ a {
     }
     #services .service-bottom .service-item2 {
         flex-basis: 40%;
-        margin: 2.5%;
-        background-image: url(/assets/fresh.png); 
+        margin: 2.5%; 
     }
     #services .service-bottom .service-item3 {
         flex-basis: 40%;
