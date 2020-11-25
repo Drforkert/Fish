@@ -181,7 +181,7 @@ a {
     justify-content: center;
 }
 #hero{
-    background-image: url(/assets/couldbegood.png);
+    background-image: url(/assets/backgroundsmaybe.png);
     background-size: cover;
     position: relative;
     z-index:1;
@@ -291,7 +291,7 @@ a {
     z-index:-1;
 }
 #services .service-item h2{
-    font-size: 2vh;
+    font-size: 2.2vh;
     color:white;
     margin-bottom:2vh;
     text-transform:uppercase;
@@ -332,7 +332,7 @@ a {
     z-index:-1;
 }
 #services .service-item2 h2{
-    font-size: 2vh;
+    font-size: 2.2vh;
     color:white;
     margin-bottom:2vh;
     text-transform:uppercase;
@@ -373,7 +373,7 @@ a {
     z-index:-1;
 }
 #services .service-item3 h2{
-    font-size: 2vh;
+    font-size: 2.2vh;
     color:white;
     margin-bottom:2vh;
     text-transform:uppercase;
@@ -401,6 +401,7 @@ a {
     position:relative;
     z-index:1;
     overflow:hidden;
+    box-shadow: 10px solid black;
 }
 #services .service-item4::after{
     content: '';
@@ -414,7 +415,7 @@ a {
     z-index:-1;
 }
 #services .service-item4 h2{
-    font-size: 2vh;
+    font-size: 2.2vh;
     color:white;
     margin-bottom:2vh;
     text-transform:uppercase;
