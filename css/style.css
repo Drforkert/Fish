@@ -243,15 +243,15 @@ a {
     padding: 50px 0;
 }
 #service .service-top {
-    max-width: 600px;
-    margin:5px auto;
+    max-width: 700px;
 }
 #services .service-top p{
-    font-size: 1.2rem;
-    margin: 5px;
-    line-height: 1.9rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
+    font-size: 1.8vh;
+    margin: 4vh;
+    line-height:2.1vh;
+    font-weight: 500;
+    letter-spacing: .2vh;
+    justify-content:center;
 }
 #services .service-bottom{
     display:flex;
@@ -281,8 +281,8 @@ a {
     top:0;
     height: 100%;
     width:100%;
-    background-image:linear-gradient(60deg, #282f36 0%, #485563 100%);
-    opacity:.8;
+    background-image:linear-gradient(60deg, #24336bfb 0%, #485563 100%);
+    opacity:.7;
     z-index:-1;
 }
 #services .service-item h2{
