@@ -253,21 +253,21 @@ a {
     letter-spacing: .2vh;
     justify-content:center;
 }
-#services .service-bottom{
+#services .service-bottom{   
     display:flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 #services .service-item {
-    flex-basis:80%;
+    flex-basis: 60%;
     display:flex;
     align-items:flex-start;
     justify-content:center;
     flex-direction:column;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
-    background-image: url(/assets/Muscheln2.png);
+    background-image: url(/assets/sashimi2.png);
     background-size: cover;
     margin: 10px 5%;
     position:relative;
@@ -281,8 +281,8 @@ a {
     top:0;
     height: 100%;
     width:100%;
-    background-image:linear-gradient(60deg, #24336bfb 0%, #485563 100%);
-    opacity:.7;
+    background-image:linear-gradient(60deg, #282f36 0%, #485563 100%);
+    opacity:.6;
     z-index:-1;
 }
 #services .service-item h2{
@@ -298,14 +298,14 @@ a {
     line-height:1.9rem;
 }
 #services .service-item2 {
-    flex-basis:80%;
+    flex-basis:60%;
     display:flex;
     align-items:flex-start;
     justify-content:center;
     flex-direction:column;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
-    background-image: url(/assets/Muscheln2.png);
+    background-image: url(/assets/fresh.png);
     background-size: cover;
     margin: 10px 5%;
     position:relative;
@@ -320,7 +320,7 @@ a {
     height: 100%;
     width:100%;
     background-image:linear-gradient(60deg, #282f36 0%, #485563 100%);
-    opacity:.8;
+    opacity:.5;
     z-index:-1;
 }
 #services .service-item2 h2{
@@ -336,14 +336,14 @@ a {
     line-height:1.9rem;
 }
 #services .service-item3 {
-    flex-basis:80%;
+    flex-basis:60%;
     display:flex;
     align-items:flex-start;
     justify-content:center;
     flex-direction:column;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
-    background-image: url(/assets/Muscheln2.png);
+    background-image: url(/assets/auslage.png);
     background-size: cover;
     margin: 10px 5%;
     position:relative;
@@ -358,7 +358,7 @@ a {
     height: 100%;
     width:100%;
     background-image:linear-gradient(60deg, #282f36 0%, #485563 100%);
-    opacity:.8;
+    opacity:.5;
     z-index:-1;
 }
 #services .service-item3 h2{
@@ -374,14 +374,14 @@ a {
     line-height:1.9rem;
 }
 #services .service-item4 {
-    flex-basis:80%;
+    flex-basis:60%;
     display:flex;
     align-items:flex-start;
     justify-content:center;
     flex-direction:column;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
-    background-image: url(/assets/Muscheln2.png);
+    background-image: url(/assets/Kibbelings.png);
     background-size: cover;
     margin: 10px 5%;
     position:relative;
@@ -396,7 +396,7 @@ a {
     height: 100%;
     width:100%;
     background-image:linear-gradient(60deg, #112538 0%, #485563 100%);
-    opacity:.8;
+    opacity:.5;
     z-index:-1;
 }
 #services .service-item4 h2{
@@ -699,6 +699,9 @@ a {
     #hero h1{
         font-size:5rem;
     }
+    #services .service-bottom{
+        max-width:250vh;
+    }
     #services .service-bottom .service-item {
         flex-basis: 40%;
         margin: 2.5%;
@@ -706,6 +709,7 @@ a {
     #services .service-bottom .service-item2 {
         flex-basis: 40%;
         margin: 2.5%;
+        background-image: url(/assets/fresh.png); 
     }
     #services .service-bottom .service-item3 {
         flex-basis: 40%;
