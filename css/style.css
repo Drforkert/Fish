@@ -256,6 +256,7 @@ a {
 }
 #services .service-bottom{   
     display:flex;
+    text-align:center;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -264,7 +265,7 @@ a {
     height:40vh;
     width:45vh;
     display:flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content:center;
     flex-direction:column;
     padding: 40px;
@@ -288,16 +289,16 @@ a {
     z-index:-1;
 }
 #services .service-item h2{
-    font-size: 2rem;
+    font-size: 2.8vh;
     color:white;
     margin-bottom:10px;
     text-transform:uppercase;
 }
 #services .service-item p{
     color:white;
-    text-align:left;
-    font-size:1.4rem;
-    line-height:1.9rem;
+    text-align:center;
+    font-size:2.2vh;
+    line-height:2.4vh;
 }
 #services .service-item2 {
     height:40vh;
@@ -327,16 +328,16 @@ a {
     z-index:-1;
 }
 #services .service-item2 h2{
-    font-size: 2rem;
+    font-size: 2.8vh;
     color:white;
     margin-bottom:10px;
     text-transform:uppercase;
 }
 #services .service-item2 p{
     color:white;
-    text-align:left;
-    font-size:1.4rem;
-    line-height:1.9rem;
+    text-align:center;
+    font-size:2.2vh;
+    line-height:2.4vh;
 }
 #services .service-item3 {
     height:40vh;
@@ -366,16 +367,16 @@ a {
     z-index:-1;
 }
 #services .service-item3 h2{
-    font-size: 2rem;
+    font-size: 2.8vh;
     color:white;
     margin-bottom:10px;
     text-transform:uppercase;
 }
 #services .service-item3 p{
     color:white;
-    text-align:left;
-    font-size:1.4rem;
-    line-height:1.9rem;
+    text-align:center;
+    font-size:2.2vh;
+    line-height:2.4vh;
 }
 #services .service-item4 {
     height:40vh;
@@ -405,16 +406,16 @@ a {
     z-index:-1;
 }
 #services .service-item4 h2{
-    font-size: 2rem;
+    font-size: 2.8vh;
     color:white;
     margin-bottom:10px;
     text-transform:uppercase;
 }
 #services .service-item4 p{
     color:white;
-    text-align:left;
-    font-size:1.4rem;
-    line-height:1.9rem;
+    text-align:center;
+    font-size:2.2vh;
+    line-height:2.4vh;
 }
 
 
