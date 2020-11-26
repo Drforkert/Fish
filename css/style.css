@@ -291,7 +291,7 @@ a {
     z-index:-1;
 }
 #services .service-item h2{
-    font-size: 2.2vh;
+    font-size: 2vh;
     color:white;
     margin-bottom:2vh;
     text-transform:uppercase;
@@ -395,7 +395,7 @@ a {
     flex-direction:column;
     padding: 40px;
     border-radius: 10px;
-    background-image: url(/assets/Muscheln.png);
+    background-image: url(/assets/lobster.png);
     background-size: cover;
     margin: 10px 5%;
     position:relative;
