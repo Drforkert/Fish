@@ -712,9 +712,6 @@ a {
     #hero h1{
         font-size:5rem;
     }
-    #services .service-bottom{
-        max-width:100%;
-    }
     #services .service-bottom .service-item {
         flex-basis: 40%;
         margin: 2.5%;
@@ -894,29 +891,24 @@ a {
         flex-direction: row;
         display:flex;
         justify-content: center;
-        width: 80%;
+        width:100%;
+        margin:0;
     }
     #services .service-item {
+        max-width:28vh;
         height:30vh;
-        width:38vh;
-        min-height:25vh;
-        min-width:30vh;
-        display:flex;
-        align-items: flex-start;
-        justify-content:center;
-        flex-direction:column;
     }
     #services .service-item2 {
-        width:35vh;
-        height:28vh;
+        max-width:28vh;
+        height:30vh;
     }
     #services .service-item3 {
-        width:35vh;
-        height:28vh;
+        max-width:28vh;
+        height:30vh;
     }
     #services .service-item4 {
-        width:35vh;
-        height:28vh;
+        max-width:28vh;
+        height:30vh;
     }
     #about .col-right h1 {
         font-size:2.5vh;
