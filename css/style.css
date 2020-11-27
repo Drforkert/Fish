@@ -892,7 +892,6 @@ a {
         display:flex;
         justify-content: center;
         width:100%;
-        margin:0;
     }
     #services .service-item {
         max-width:28vh;
