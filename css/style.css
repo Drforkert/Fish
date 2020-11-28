@@ -748,31 +748,43 @@ a {
         line-height:2.4rem;
         margin:20px;
     }
+    #projects .all-projects {
+        justify-content: center;
+        display:flex;
+        align-items:center;
+        text-align:center;
+    }
+    #projects .all-projects h1{
+        font-weight:700;
+        font-size:3vh;
+        text-align:center;
+        justify-content:center;
+    }
     #projects .projects {
-        max-width: 1024px;
+        max-width: 100%;
         margin: 0 auto;
         padding: 100px 0;
     }
     #projects .project-item {
         height: 300px;
-        margin: 0;
-        width: 100%;
+        margin:0;
+        width:95%;
         border-radius:0;
-        flex-direction:row-reverse;
+        flex-direction:row;
     }
     #projects .project-item2 {
         height: 300px;
         margin:0;
-        width:100%;
+        width:95%;
         border-radius:0;
         flex-direction:row;
     }
     #projects .project-item3 {
         height: 300px;
         margin:0;
-        width:100%;
+        width:95%;
         border-radius:0;
-        flex-direction:row-reverse;
+        flex-direction:row;
     }
     #projects .all-projects .project-info{
         height:100%;
