@@ -497,21 +497,21 @@ a {
 #projects .project-img {
     flex-basis: 50%;
     height:330px;
-    width:auto;
+    width:100%;
     overflow:hidden;
     position:relative;
 }
 #projects .project-img2 {
     flex-basis: 50%;
     height:330px;
-    width:auto;
+    width:100%;
     overflow:hidden;
     position:relative;
 }
 #projects .project-img3 {
     flex-basis: 50%;
     height:330px;
-    width:auto;
+    width:100%;
     overflow:hidden;
     position:relative;
 }
