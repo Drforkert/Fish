@@ -181,7 +181,7 @@ a {
     justify-content: center;
 }
 #hero{
-    background-image: url(/assets/backgroundsmaybe.png);
+    background-image: url(/assets/probieren.png);
     background-size: cover;
     position: relative;
     z-index:1;
