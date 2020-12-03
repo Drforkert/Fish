@@ -641,22 +641,32 @@ a {
     margin-bottom: 10px;
 }
 #contact .contact-info h1 {
-    font-size: 3vh;
-    font-weight: 500;
+    font-size: 2.7vh;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 #contact .contact-info h2 {
-    font-size: 2vh;
+    font-size: 1.8vh;
     font-weight: 500;
 }
 #contact .contact-info2 h1{
-    font-size:3vh;
-    font-weight:500;
+    font-size:2.7vh;
+    font-weight:600;
+    margin-bottom: 20px;
 }
 #contact .contact-info2 h2{
-    font-size:2vh;
-    font-weight:400;
+    font-size:1.8vh;
+    font-weight:500;
     margin-bottom:10px;
+}
+#contact .contact-info3 h1{
+    font-size:2.7vh;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+#contact .contact-info3 h2{
+    font-size:1.8vh;
+    font-weight:500;
 }
 /*Kontakt end*/
 /*Footer*/
@@ -867,10 +877,12 @@ a {
     }
     #contact .contact-item{
         min-height:25.7vh;
-        min-width:25.5vw;
+        min-width:29.5vw;
         background-repeat:no-repeat;
         background-size:cover;
         display:flex;
+        margin:1.5vh;
+        padding-left:10px;
         flex-direction:column;
         justify-content:center;
         border-radius:15px;
@@ -878,10 +890,11 @@ a {
     }
     #contact .contact-item2 {
         min-height:25.7vh;
-        min-width:25.5vw;
+        min-width:29.5vw;
         background-repeat:no-repeat;
         background-size:cover;
         display:flex;
+        margin:1.5vh;
         flex-direction:column;
         justify-content:center;
         border-radius:15px;
@@ -889,11 +902,11 @@ a {
     }
     #contact .contact-item3 {
         min-height:25.7vh;
-        min-width:25.5vw;
+        min-width:29.5vw;
         background-repeat:no-repeat;
         background-size:cover;
         display:flex;
-        padding:0;
+        margin:1.5vh;
         flex-direction:column;
         justify-content:center;
         border-radius:15px;
@@ -905,15 +918,39 @@ a {
         flex-direction:column;
     }
     #contact .contact-info h1{
-        font-size: 2.5vmin;
+        font-size: 2.5vh;
         font-weight: 700;
         flex-direction:column;
     }
     #contact .contact-info h2{
-        font-size: 2vh;
+        font-size: 1.8vh;
         font-weight: 300;
         flex-direction:row;
-        padding-bottom:10px;
+        padding:10px;
+        margin:10px;
+    }
+    #contact .contact-info3 h1{
+        font-size: 2.5vh;
+        font-weight: 700;
+        flex-direction:row;
+    }
+    #contact .contact-info3 h2{
+        font-size: 1.8vh;
+        font-weight: 300;
+        padding:1vh;
+        margin:1vh;
+        flex-direction:column;
+    }
+    #contact .contact-info2 h1 {
+        font-size: 2.5vh;
+        font-weight:700;
+        flex-direction: row;
+    }
+    #contact .contact-info2 h2{
+        font-size:1.8vh;
+        font-weight:500;
+        padding:1vh;
+        margin:1vh;
     }
 }
 /*Mediaquery tablet end*/
