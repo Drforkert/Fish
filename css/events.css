@@ -229,49 +229,62 @@ a {
 }
 /*HERO Section over*/
 /*Eventssection*/
-.responsive-container span {
-    color:turquoise;
+#table .eventtitle h1{
+    font-size: 5vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    font-weight:700;
+    padding-top:55px;
+    padding-bottom:50px;
 }
 #table .responsive-container {
-    width:100%;
-    margin: 0 auto;
-    padding:15px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 6px solid grey;
-    z-index:-1;
-}
-#table .responsive-container h1{
-    padding-top:40px;
-    font-size:4vh;
-    margin:10px;
-    padding-bottom:40px;
-    color: black;
-    text-align:center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border-collapse:collapse;
+    margin:25px 0;
+    font-size: 0.9em;
+    justify-content: center;
 }
 #table .responsive-container table{
-    width:100%;
+    justify-content: center;
+    display:flex;
+    flex-direction:row;
+    border-radius: 5px 5px 0 0;
+    overflow:hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-#table .responsive-container td{
-    border-color: solid 1px #ccc;
+.eventtitle span {
+    color:turquoise;
 }
-#table .responsive-container td::before{
-    display:none;
+#table .responsive-container th {
+    background-color: rgb(53, 146, 146);
+    font-size:2vh;
+    color:#ffffff;
+    text-align:left;
+    font-weight:700;
 }
-.responsive-container th {
-    font-size:2.2vh;
-    display: table-cell;
-    color:Black;
-    padding:10px;
-    text-align:row;
-    z-index:1;
+#table .responsive-container td {
+    font-weight:500;
+    font-size: 1.8vh;
 }
-.responsive-container td{
-    font-size:1.8vh;
-    display: table-cell;
-    color:black;
-    padding:10px;
-    text-align:center;
-    z-index: 1;
+#table .responsive-container th,
+.responsive-container td {
+    padding:12px 15px;
+}
+#table .responsive-container tbody, tr{
+    border-bottom:1px solid #dddddd;
+}
+#table .responsive-container tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+#table .responsive-container tbody tr:last-of-type {
+    border-bottom: 4px solid #009879;
+}
+#table .responsive-container tbody tr.active-row {
+    font-weight: bold;
+    color: #303296;
 }
 /*Eventssection end*/
 @media (max-width: 767px){
