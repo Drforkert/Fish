@@ -232,11 +232,12 @@ a {
 #table .eventtitle h1{
     font-size: 5vh;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
+    text-align:center;
     justify-content: center;
     font-weight:700;
-    padding-top:55px;
-    padding-bottom:50px;
+    padding-top:30px;
+    padding-bottom:20px;
 }
 #table .responsive-container {
     display:flex;
@@ -287,6 +288,7 @@ a {
     color: #303296;
 }
 /*Eventssection end*/
+/*Mediaquery mobile*/
 @media (max-width: 767px){
     .responsive-container {
         width:90%;
@@ -310,6 +312,30 @@ a {
         display:inline-block;
     }
 }
+/*Mediaquery mobile end */
+/*Mediaquery Desktop start*/
+@media only screen and (min-width: 1200px) {
+    #header .hamburger{
+        display:none;
+    }
+    #header .nav-list ul {
+        position:initial;
+        display:block;
+        height:auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+    #header .nav-list ul li{
+        display: inline-block;
+    }
+    #header .nav-list ul a{
+        font-size:2vh;
+    }
+    #header .nav-list ul a:after{
+        display:none;
+    }
+}
+/*Mediaquery Desktop end*/
 /*KEYFRAMES*/
 @keyframes hamburger_puls{
     0%{
