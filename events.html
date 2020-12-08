@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>Events Dietz</title>
 </head>
 <body>
@@ -20,6 +21,7 @@
                     <ul>
                         <li><a href="index.html" data-after="Home">Home</a></li>
                         <li><a href="#table" data-after="Termine">Unsere Termine</a></li>
+                        <li><a href="#form" data-after="Lass etwas da :)">Kontaktiere uns!</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +47,7 @@
                     <th>Zu welchen Zeiten?</th>
                     <th>Wo genau?</th>
                 </tr>
-                <tr>
+                <tr class="active-row">
                     <td>Dienstags:</td>
                     <td>Soest</td>
                     <td>von 7:00-14:00 Uhr</td>
@@ -133,6 +135,43 @@
         </div>
         </div>
     </section>
+    <section id="form">
+        <div class="formcontainer">
+            <div class="form">
+                <div class="contact-infoheader"></div>
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+                    <form action="https://formspree.io/f/xwkwrvrj" method="POST" id="my-form">
+                        <h3 class="title">Kontaktieren sie uns</h3>
+                        <div class="input-container focus">
+                            <input type="text" name="name" class="input">
+                            <label for="">Name</label>
+                            <span>Name</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="name" class="input">
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="name" class="input">
+                            <label for="">Telefon</label>
+                            <span>Telefon</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name ="message" class="input"></textarea>
+                            <label for="">Nachricht</label>
+                            <span>Nachricht</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div id="status"></div>
+    </section>
     <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 </html>
