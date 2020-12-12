@@ -316,6 +316,28 @@ html{
         width:6.5em;
         display:inline-block;
     }
+    
+}
+@media only screen and (min-width: 768px) {
+    #header .hamburger{
+        display:none;
+    }
+    #header .nav-list ul {
+        position:initial;
+        display:block;
+        height:auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+    #header .nav-list ul li{
+        display: inline-block;
+    }
+    #header .nav-list ul a{
+        font-size:1.5vh;
+    }
+    #header .nav-list ul a:after{
+        display:none;
+    }
 }
 /*Mediaquery mobile end */
 /*Mediaquery Desktop start*/

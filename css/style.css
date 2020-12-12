@@ -43,7 +43,7 @@ a {
 .brand h1 {
     font-size: 3vh;
     text-transform: uppercase;
-    color: white;
+    color: White;
 }
 .brand h1 span{
     color:turquoise;
@@ -181,7 +181,7 @@ a {
     justify-content: center;
 }
 #hero{
-    background-image: url(/assets/couldbegood.png);
+    background-image: url(/assets/loopingocean.gif);
     background-size: cover;
     position: relative;
     z-index:1;
@@ -558,10 +558,21 @@ a {
     font-weight:300;
 }
 #about .col-right .cta{
-    color: black;
-    margin:50px;
+    display:inline-block;
     padding:10px 20px;
-    font-size: 2.1vh;
+    color:turquoise;
+    background-color:transparent;
+    border:2px solid turquoise;
+    font-size: 2vh;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+#about .col-right .cta:hover {
+    color: white;
+    background-color: turquoise;
 }
 #about .col-left .about-img {
     position:relative;
@@ -736,14 +747,33 @@ a {
 /*mediaquery section*/
 @media only screen and (min-width:768px) {
     .cta {
-        font-size: 2.2rem;
-        padding: 20px 60px;
+        font-size: 1.8rem;
+        padding: 10px 40px;
     }
     h1.section-title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     #hero h1{
-        font-size:5rem;
+        font-size:3.8rem;
+    }
+    #header .hamburger{
+        display:none;
+    }
+    #header .nav-list ul {
+        position:initial;
+        display:block;
+        height:auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+    #header .nav-list ul li{
+        display: inline-block;
+    }
+    #header .nav-list ul a{
+        font-size:1.5vh;
+    }
+    #header .nav-list ul a:after{
+        display:none;
     }
     #services .service-bottom .service-item {
         flex-basis: 40%;
@@ -762,9 +792,11 @@ a {
         margin: 2.5%;
     }
     #services .service-top p{
-        font-size:1.5rem;
-        line-height:2.4rem;
+        font-size:1.1rem;
+        line-height:1.7rem;
         margin:20px;
+        padding-left:30px;
+        padding-right:30px;
     }
     #projects .all-projects {
         justify-content: center;
@@ -842,22 +874,22 @@ a {
         padding: 30px;
     }
     #about .col-right h1 {
-        font-size:5.5vh;
+        font-size:2rem;
         text-align:center;
     }
     #about .col-right h2 {
-        font-size:3vh;
+        font-size:1.5rem;
         font-weight:600;
         text-align:center;
         padding-top:2px;
     }
     #about .col-right p {
-        font-size:2.5vh;
+        font-size:1.2rem;
         font-weight:400;
         text-align:center;
     }
     #about .col-right .cta{
-        font-size:3vh;
+        font-size:2vh;
         font-weight:500;
         margin:10px;
         padding:20px;
@@ -975,9 +1007,14 @@ a {
     #header .nav-list ul a:after{
         display:none;
     }
-    #services .service-top p {
-        margin:6vh;
-        margin-bottom:3vh;
+    .service-top .section-title{
+        font-size: 2.4rem;
+    }
+    #services .service-top p{
+        padding-bottom:5rem;
+        padding-top:2rem;
+        font-size:1.4rem;
+        line-height:1.8rem;
     }
     #services .service-bottom {
         flex-direction: row;
@@ -1001,8 +1038,11 @@ a {
         max-width:28vh;
         height:30vh;
     }
+    #projects .section-title {
+        font-size:2.4rem;
+    }
     #about .col-right h1 {
-        font-size:5vh;
+        font-size:2.4rem;
         text-align:center;
     }
     #about .col-right h2 {

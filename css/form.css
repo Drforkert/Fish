@@ -20,6 +20,24 @@ textarea {
     letter-spacing:.4vh;
     text-align:center;
 }
+.contact-infoheader{
+    background-image:linear-gradient(90deg, #2c7bc5 0%, #485563 100%);
+}
+.contact-infoheader h2{
+    text-align:center;
+    font-size:3vh;
+    letter-spacing:.3vh;
+    padding:2vh;
+    color:white;
+    margin:0;
+}
+.contact-infoheader p{
+    text-align:center;
+    font-size:2.5vh;
+    font-weight:500;
+    color:white;
+    padding:2vh;
+}
 #form span{
     color:turquoise;
 }
@@ -187,4 +205,10 @@ textarea.input{
 .input-container.focus span:after {
     width:50%;
     opacity:1;
+}
+#form .cta{
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+
 }
